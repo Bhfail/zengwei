@@ -74,8 +74,6 @@ html, body {
   position: relative;
   z-index: 5;
   -webkit-overflow-scrolling: touch;
-  scroll-snap-type: y proximity;
-  scroll-padding-top: 0px;
 }
 
 .page {
@@ -97,8 +95,6 @@ html, body {
   display: block;
   min-height: unset;
   height: auto;
-  scroll-snap-align: start;
-  scroll-snap-stop: normal;
 }
 
 #page-about {
@@ -113,15 +109,12 @@ html, body {
   position: relative;
   overflow: visible;
   background: transparent;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
 }
 
 #page-ai, #page-ppt, #page-exp {
   padding-top: 70px;
   padding-bottom: 70px;
   min-height: auto;
-  scroll-snap-align: none;
 }
 
 .se-root {
